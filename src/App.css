@@ -1,3 +1,17 @@
+:root {
+  --dark-blue: #2F3E46;
+  --dark-turqoise: #38686F;
+  --dark-green: #52796F;
+  --dark-seafoam-green: #84A98C;
+  --light-green: #B9C8B7;
+  --beige:#CAD2C5;
+} 
+
+body {
+  background-color: var(--dark-green);
+  font-family: 'Prompt', sans-serif;
+}
+
 .App {
   text-align: center;
 }

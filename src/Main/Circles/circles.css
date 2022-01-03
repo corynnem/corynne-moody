@@ -1,0 +1,52 @@
+#dark-turq {
+    background-color: #38686F;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#seafoaml {
+    background-color: #84A98C;
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+}
+
+#seafoams {
+    background-color: #84A98C;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+
+#dark-bluel { 
+    background-color: #2F3E46;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#dark-blues {
+    background-color: #2F3E46;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+#beige {
+    background-color: #CAD2C5;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#light-green {
+    background-color: #B9C8B7;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#headshot {
+    height: 300px;
+    border-radius: 150px
+}
