@@ -13,7 +13,7 @@ const Splash = ({darkTurq, seafoaml, beige, green, darkBluel, darkBlues, seafoam
   return (
     <div>
       <Beige style={beige} />
-      <div style={{ width: "420px", marginTop: "-350px" }}>
+      <div style={{ width: "400px", marginTop: "-340px", marginLeft: '-30px' }}>
         <Headshot style={headshotStyles} />
         <SeaFoamL style={seafoaml} />
       </div>
@@ -23,7 +23,7 @@ const Splash = ({darkTurq, seafoaml, beige, green, darkBluel, darkBlues, seafoam
       <SeaFoamS style={seafoams} />
       <DarkBlueL style={darkBluel} />
       <DarkTurq style={darkTurq} />
-      <div style={{marginTop: '21em', marginLeft: '2em'}}>
+      <div style={{marginTop: '24em'}}>
         <h1>Corynne Moody</h1>
         <p><b>Indianapolis based web dev experienced in building, and teaching, user interfaces and servers</b></p>
       </div>

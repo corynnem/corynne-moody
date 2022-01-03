@@ -9,10 +9,9 @@ import "./App.css";
 function App() {
 
   const darkTurq = {
-    marginTop: "-508px",
+    marginTop: "-550px",
     marginLeft: "-30px",
     zIndex: '300',
-    // margin: 'auto'
   };
 
   const seafoaml = {
@@ -31,22 +30,23 @@ function App() {
   };
 
   const darkBluel = {
-    marginTop: "-200px",
-    marginLeft: "200px",
+    marginTop: "-220px",
+    marginLeft: "150px",
   };
 
   const darkBlues = {
-    marginTop: "150px",
+    marginTop: "200px",
     marginLeft: "20px",
   };
 
   const seafoams = {
-    marginTop: "-40px",
-    marginLeft: "70px",
+    marginTop: "-30px",
+    marginLeft: "60px",
   };
 
   const headshotStyles = {
     zIndex: "-100",
+    marginLeft: '20px'
   };
 
 
@@ -60,7 +60,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/" element={<Splash darkTurq={darkTurq} seafoaml={seafoaml} beige={beige} green={green} darkBluel={darkBluel} darkBlues={darkBlues} seafoams={seafoams} />} />
+          <Route exact path="/" element={<Splash darkTurq={darkTurq} seafoaml={seafoaml} beige={beige} green={green} darkBluel={darkBluel} darkBlues={darkBlues} seafoams={seafoams} headshotStyles={headshotStyles} />} />
         </Routes>
       </Router>
     </div>
