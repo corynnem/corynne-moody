@@ -7,27 +7,72 @@ import DarkBlueS from "./Circles/DarkBlueS";
 import LightGreen from "./Circles/LightGreen";
 import Beige from "./Circles/Beige";
 import Headshot from "./Circles/Headshot";
+import "./main.css";
 
-const Splash = ({darkTurq, seafoaml, beige, green, darkBluel, darkBlues, seafoams, headshotStyles }) => {
- 
+const Splash = () => {
+  const darkTurq = {
+    marginTop: "-550px",
+    marginLeft: "-30px",
+    zIndex: "300",
+  };
+
+  const seafoaml = {
+    marginTop: "-332px",
+    marginLeft: "35px",
+  };
+
+  const beige = {
+    marginTop: "250px",
+    marginLeft: "-60px",
+  };
+
+  const green = {
+    marginTop: "-380px",
+    marginLeft: "200px",
+  };
+
+  const darkBluel = {
+    marginTop: "-220px",
+    marginLeft: "150px",
+  };
+
+  const darkBlues = {
+    marginTop: "200px",
+    marginLeft: "20px",
+  };
+
+  const seafoams = {
+    marginTop: "-30px",
+    marginLeft: "60px",
+  };
+
+  const headshotStyles = {
+    zIndex: "-100",
+    marginLeft: "20px",
+  };
+
   return (
-    <div>
+    <div style={{ height: "80vh" }}>
       <Beige style={beige} />
-      <div style={{ width: "400px", marginTop: "-340px", marginLeft: '-30px' }}>
+      <div style={{ width: "400px", marginTop: "-340px", marginLeft: "-30px" }}>
         <Headshot style={headshotStyles} />
         <SeaFoamL style={seafoaml} />
       </div>
-
       <LightGreen style={green} />
       <DarkBlueS style={darkBlues} />
       <SeaFoamS style={seafoams} />
       <DarkBlueL style={darkBluel} />
       <DarkTurq style={darkTurq} />
-      <div style={{marginTop: '24em'}}>
-        <h1>Corynne Moody</h1>
-        <p><b>Indianapolis based web dev experienced in building, and teaching, user interfaces and servers</b></p>
+      <div id="about">
+        <h1 id="name">Corynne Moody</h1>
+
+        <p>
+          <b>
+            Indianapolis based web dev experienced in building, and teaching,
+            user interfaces and servers
+          </b>
+        </p>
       </div>
-      
     </div>
   );
 };

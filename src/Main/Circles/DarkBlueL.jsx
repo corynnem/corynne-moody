@@ -6,7 +6,7 @@ const DarkBlueL = ({style}) => {
 
 
     return (
-        <div>
+        <div id="darkbluel-circle">
             <div id="dark-bluel" style={style}></div>
         </div>
     )

@@ -6,9 +6,9 @@ const DarkTurq = ({style}) => {
 
 
     return (
-        <div>
+        <div id="darkturq-circle">
             <div id="dark-turq" style={style}></div>
         </div>
     )
 }
-export default DarkTurq;
+export default DarkTurq; 

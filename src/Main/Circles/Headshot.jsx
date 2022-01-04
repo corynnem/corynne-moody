@@ -7,7 +7,7 @@ const Headshot = ({style}) => {
 
 
     return (
-        <div>
+        <div id="headshot-circle">
             <img id="headshot" src={headshot} style={style}/>
         </div>
     )

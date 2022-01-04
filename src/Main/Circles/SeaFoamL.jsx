@@ -6,8 +6,8 @@ const SeaFoamL = ({style}) => {
 
 
     return (
-        <div>
-            <div id="seafoaml" style={style}></div>
+        <div  id="seafoaml-circle">
+            <div id="seafoaml" style={style} ></div>
         </div>
     )
 }
