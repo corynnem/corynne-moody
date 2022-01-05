@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Splash from "./Main/Splash";
 import About from "./Main/About";
+import Applications from './Main/Applications'
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Splash/>
       <About/>
+      <Applications/>
     </div>
   );
 }

@@ -1,15 +1,55 @@
-@media only screen and (max-width: 1245px) {
+@media only screen and (max-width: 1024px) {
     #name {
-        font-size: 2.7em;
+        font-size: 2.4em;
         color: var(--light-green);
+        margin-top: -.56em;
     }
-    #about {
+    #splash {
         margin-top: 20em;
          padding: 4%
     }
+    #title {
+        color: var(--light-green);
+        margin-right: 10vw;
+    }
+      #abt-desc {
+        width: 75%;
+        margin-left: 13vw;
+        margin-top: -15.3em;
+        font-size: 1em;
+        width: 70%;
+        height: 30%
+
+    }
+    .up {
+        /* margin-top: -3em; */
+        margin-bottom: 3em;
+        height: 50px;
+        opacity: 0.2;
+        margin-left: 7em;
+        height: 2
+    }
+
+    .up:hover {
+        cursor: pointer;
+        opacity: 1;
+       
+    }
+    .down {
+        margin-top: 3em;
+        height: 50px;
+        opacity: .2;
+        float: center;
+        margin-left: 1em;
+    }
+
+    .down:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
   }
 
-  @media only screen and (min-width: 1246px) and (max-width: 1300px) {
+  @media only screen and (min-width: 1025px) and (max-width: 1300px) {
     #name {
         font-size: 2.5em;
         margin-left: 2em;
@@ -17,11 +57,47 @@
         margin-bottom: 2em;
         /* margin-top: 2em; */
     }
-    #about {
+    #splash {
         font-size: 2em;
         padding: 4%
     }
-    
+    #title {
+        color: var(--light-green);
+        font-size: 4em;
+        margin-top: -.3em;
+    }
+    #abt-desc {
+        width: 80vw;
+        margin-left: 10%;
+        margin-top: -5em;
+        font-size: 2em;
+    }
+    .up {
+        margin-top: -3em;
+        margin-bottom: 3em;
+        height: 50px;
+        opacity: 0.2;
+        margin-left: 7em;
+
+    }
+
+    .up:hover {
+        cursor: pointer;
+        opacity: 1;
+       
+    }
+    .down {
+        margin-top: 6em;
+        height: 50px;
+        opacity: .2;
+        margin-left: 2em;
+        /* margin-right: 3em; */
+    }
+
+    .down:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
   }
 
   @media only screen and (min-width: 1301px) {
@@ -32,8 +108,49 @@
         margin-bottom: 1em;
         /* margin-top: 2em; */
     }
-    #about {
+    #splash {
         font-size: 2em;
         padding: 4%
+    }
+    #title {
+        color: var(--light-green);
+        font-size: 4em;
+        margin-top: -.3em;
+
+    }
+    #abt-desc {
+        width: 80vw;
+        margin-left: 10%;
+        margin-top: -5em;
+        font-size: 2em;
+    }
+
+
+
+
+    .up {
+        margin-top: -3em;
+        margin-bottom: 3em;
+        height: 50px;
+        opacity: 0.2;
+        margin-left: 7em;
+
+    }
+
+    .up:hover {
+        cursor: pointer;
+        opacity: 1;
+       
+    }
+    .down {
+        margin-top: 6em;
+        height: 50px;
+        opacity: .2;
+        margin-left: 3em;
+    }
+
+    .down:hover {
+        cursor: pointer;
+        opacity: 1;
     }
 }

@@ -7,11 +7,12 @@ import DarkBlueS from "./Circles/DarkBlueS";
 import LightGreen from "./Circles/LightGreen";
 import Beige from "./Circles/Beige";
 import Headshot from "./Circles/Headshot";
+import downarrow from './assets/downarrow.png';
 import "./main.css";
 
 const Splash = () => {
   const darkTurq = {
-    marginTop: "-550px",
+    marginTop: "-500px",
     marginLeft: "-30px",
     zIndex: "300",
   };
@@ -52,7 +53,7 @@ const Splash = () => {
   };
 
   return (
-    <div style={{ height: "80vh" }}>
+    <div style={{ height: "90vh" }}>
       <Beige style={beige} />
       <div style={{ width: "400px", marginTop: "-340px", marginLeft: "-30px" }}>
         <Headshot style={headshotStyles} />
@@ -63,15 +64,16 @@ const Splash = () => {
       <SeaFoamS style={seafoams} />
       <DarkBlueL style={darkBluel} />
       <DarkTurq style={darkTurq} />
-      <div id="about">
+      <div id="splash">
         <h1 id="name">Corynne Moody</h1>
 
-        <p>
+        <p style={{marginBottom: '-3em'}}>
           <b>
             Indianapolis based web dev experienced in building, and teaching,
             user interfaces and servers
           </b>
         </p>
+          <img src={downarrow} className="down" onClick={() => window.location.assign("http://localhost:3000/#about")}/>    
       </div>
     </div>
   );
