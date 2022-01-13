@@ -1,156 +1,95 @@
+/* Phone and Small-Sized Screen */
 @media only screen and (max-width: 1024px) {
-    #name {
-        font-size: 2.4em;
-        color: var(--light-green);
-        margin-top: -.56em;
-    }
-    #splash {
-        margin-top: 20em;
-         padding: 4%
-    }
-    #title {
-        color: var(--light-green);
-        margin-right: 10vw;
-    }
-      #abt-desc {
-        width: 75%;
-        margin-left: 13vw;
-        margin-top: -15.3em;
-        font-size: 1em;
-        width: 70%;
-        height: 30%
-
-    }
-    .up {
-        /* margin-top: -3em; */
-        margin-bottom: 3em;
-        height: 50px;
-        opacity: 0.2;
-        margin-left: 7em;
-        height: 2
-    }
-
-    .up:hover {
-        cursor: pointer;
-        opacity: 1;
-       
-    }
-    .down {
-        margin-top: 3em;
-        height: 50px;
-        opacity: .2;
-        float: center;
-        margin-left: 1em;
-    }
-
-    .down:hover {
-        cursor: pointer;
-        opacity: 1;
-    }
+  #name {
+    font-size: 2.4em;
+    color: var(--light-green);
+    margin-top: -0.56em;
+  }
+  #splash {
+    margin-top: 20em;
+    padding: 4%;
+  }
+  #title {
+    color: var(--light-green);
+    margin-right: 10vw;
+  }
+  #abt-desc {
+    width: 75%;
+    margin-left: 13vw;
+    margin-top: -15.3em;
+    font-size: 1em;
+    width: 70%;
+    height: 30%;
   }
 
-  @media only screen and (min-width: 1025px) and (max-width: 1300px) {
-    #name {
-        font-size: 2.5em;
-        margin-left: 2em;
-        color: var(--light-green);
-        margin-bottom: 2em;
-        /* margin-top: 2em; */
-    }
-    #splash {
-        font-size: 2em;
-        padding: 4%
-    }
-    #title {
-        color: var(--light-green);
-        font-size: 4em;
-        margin-top: -.3em;
-    }
-    #abt-desc {
-        width: 80vw;
-        margin-left: 10%;
-        margin-top: -5em;
-        font-size: 2em;
-    }
-    .up {
-        margin-top: -3em;
-        margin-bottom: 3em;
-        height: 50px;
-        opacity: 0.2;
-        margin-left: 7em;
-
-    }
-
-    .up:hover {
-        cursor: pointer;
-        opacity: 1;
-       
-    }
-    .down {
-        margin-top: 6em;
-        height: 50px;
-        opacity: .2;
-        margin-left: 2em;
-        /* margin-right: 3em; */
-    }
-
-    .down:hover {
-        cursor: pointer;
-        opacity: 1;
-    }
+  #app-circles {
+    margin-top: -90vh;
+    margin-left: -3vw;
   }
 
-  @media only screen and (min-width: 1301px) {
-    #name {
-        font-size: 3.5em;
-        margin-left: 3em;
-        color: var(--light-green);
-        margin-bottom: 1em;
-        /* margin-top: 2em; */
-    }
-    #splash {
-        font-size: 2em;
-        padding: 4%
-    }
-    #title {
-        color: var(--light-green);
-        font-size: 4em;
-        margin-top: -.3em;
+}
 
-    }
-    #abt-desc {
-        width: 80vw;
-        margin-left: 10%;
-        margin-top: -5em;
-        font-size: 2em;
-    }
+/* Tablet and Mid-Sized Screen */
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+  #name {
+    font-size: 2.1em;
+    margin-left: 4em;
+    color: var(--light-green);
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  #splash {
+    font-size: 2em;
+    padding: 4%;
+  }
+  #title {
+    color: var(--light-green);
+    font-size: 4em;
+    /* margin-top: -0.3em; */
+  }
+  #abt-desc {
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: -5em;
+    font-size: 2em;
+  }
+
+  #app-circles {
+    margin-top: -58vh;
+    margin-left: 33vw;
+  }
+
+}
+
+/* Laptops and Large-Sized Screen */
+@media only screen and (min-width: 1301px) {
+  #name {
+    font-size: 3.5em;
+    margin-left: 3em;
+    color: var(--light-green);
+    margin-bottom: 1em;
+    margin-top: 3vh;
+  }
+  #splash {
+    font-size: 2em;
+    padding: 4%;
+  }
+  #title {
+    color: var(--light-green);
+    font-size: 4em;
+    /* margin-top: -0.3em; */
+  }
+  #abt-desc {
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: -5em;
+    font-size: 2em;
+  }
+
+  #app-circles {
+    margin-top: -58vh;
+    margin-left: 37vw;
+  }
 
 
-
-
-    .up {
-        margin-top: -3em;
-        margin-bottom: 3em;
-        height: 50px;
-        opacity: 0.2;
-        margin-left: 7em;
-
-    }
-
-    .up:hover {
-        cursor: pointer;
-        opacity: 1;
-       
-    }
-    .down {
-        margin-top: 6em;
-        height: 50px;
-        opacity: .2;
-        margin-left: 3em;
-    }
-
-    .down:hover {
-        cursor: pointer;
-        opacity: 1;
-    }
 }

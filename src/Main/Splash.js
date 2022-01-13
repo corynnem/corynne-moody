@@ -8,6 +8,7 @@ import LightGreen from "./Circles/LightGreen";
 import Beige from "./Circles/Beige";
 import Headshot from "./Circles/Headshot";
 import downarrow from './assets/downarrow.png';
+import URL from '../environment'
 import "./main.css";
 
 const Splash = () => {
@@ -67,13 +68,12 @@ const Splash = () => {
       <div id="splash">
         <h1 id="name">Corynne Moody</h1>
 
-        <p style={{marginBottom: '-3em'}}>
+        <p style={{marginBottom: '-3em', marginTop: '3em'}}>
           <b>
             Indianapolis based web dev experienced in building, and teaching,
             user interfaces and servers
           </b>
         </p>
-          <img src={downarrow} className="down" onClick={() => window.location.assign("http://localhost:3000/#about")}/>    
       </div>
     </div>
   );

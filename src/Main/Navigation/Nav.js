@@ -2,46 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
-const Navigation = () => {
+const Navigation = ({style}) => {
   return (
     <div className="nav-wrapper">
-      <nav className="nav">
-        <div className="mobile-nav" id="toggle">
-            <span className="sidebar-item"></span>
-            <span className="sidebar-item"></span>
-            <span className="sidebar-item"></span>
-            <span className="sidebar-item"></span>
-            <span className="sidebar-item"></span>
-        </div>
-        <ul id="">
-            <Link to="/main">
-                <li>
-                <a className="link" id="main-link">Corynne Moody</a>
-                </li>
-            </Link>
-            <section>
-            <Link to="/about">
-                <li>
-                <a className="link">About</a>
-                </li>
-            </Link>
-            <Link to="/projects">
-                <li>
-                <a className="link">Projects</a>
-                </li>
-            </Link>
-            <Link to="/contact">
-                <li>
-                <a className="link">Contact</a>
-                </li>
-            </Link>
-            <Link to="/resume">
-                <li>
-                <a className="link">Download My Resume</a>
-                </li>
-            </Link>
-          </section>
-        </ul>
+      <img/>
+      <nav style={style}>
+        <Link to='about' className="link"><h5>About</h5></Link>
+        <Link to='applications' className="link"><h5>Projects</h5></Link>
+        <Link to='contact' className="link"><h5>Contact</h5></Link>
       </nav>
     </div>
   );
