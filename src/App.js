@@ -16,7 +16,7 @@ const applications = {
 
 function App() {
   let body = document.querySelector("body");
-  body.style.backgroundColor = "#52796F";
+  body.style.backgroundColor = "#52796F"
 
   return (
     <div className="App">
