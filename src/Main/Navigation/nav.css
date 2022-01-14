@@ -1,48 +1,105 @@
 /* Phone and Small-Sized Screen */
-@media only screen and (max-width: 1024px) {
-    nav {
-        margin-top: -12rem;    
-        right: 0px;
-        /* display: flex; */
-        /* height: 50px; */
-        position: fixed;
-        /* margin-left: 60vw; */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
     }
-     .link {
-        text-decoration: none;
-        color: var(--light-green);
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .link-tags {
+    animation: fadeIn 0.75s;
+  }
+  
+  
 
-        width: 180px;
-        height: 20px;
-    }
-    .link:hover {
-        color: var(--light-green);
-    }  
+@media only screen and (max-width: 1025px) {
+  #cancelIcon {
+    position: absolute;
+    left: 20px;
+    /* top: -100px; */
+    /* margin-top: 50px;/ */
+  }
+  nav {
+    right: 0px;
+    display: none;
+    position: fixed;
+    transition: 0.7s;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -100px 0 0 -130px;
+  }
+  .link {
+    text-decoration: none;
+    color: var(--light-green);
+    width: 180px;
+    height: 20px;
+  }
+  .link:hover {
+    color: var(--light-green);
+  }
+  .link-tags {
+    font-size: 6vh;
+    margin-bottom: 3vh;
+  }
+  /* h5 {
+        font-size: 10em;
+    } */
 }
 
 /* Tablet and Mid-Sized Screen */
-@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+@media only screen and (min-width: 1026px) and (max-width: 1300px) {
+  #menuIcon {
+    display: none;
+  }
+  #cancelIcon {
+    display: none;
+  }
 
+  nav {
+    top: 30px;
+    right: 0px;
+    display: flex;
+    position: fixed;
+  }
+  .link {
+    text-decoration: none;
+    color: var(--light-green);
+    width: 180px;
+    height: 20px;
+  }
+  .link:hover {
+    color: var(--light-green);
+  }
 }
 
 /* Laptops and Large-Sized Screen */
 @media only screen and (min-width: 1301px) {
+  #menuIcon {
+    display: none;
+  }
+  #cancelIcon {
+    display: none;
+  }
 
-    nav {
-        right: 0px;
-        display: flex;
-        /* height: 50px; */
-        position: fixed;
-        /* margin-left: 60vw; */
-    }
-     .link {
-        text-decoration: none;
-        color: var(--light-green);
-
-        width: 180px;
-        height: 20px;
-    }
-    .link:hover {
-        color: var(--light-green);
-    }  
+  nav {
+    top: 30px;
+    right: 0px;
+    display: flex;
+    position: fixed;
+  }
+  .link {
+    text-decoration: none;
+    color: var(--light-green);
+    font-family: 'Quicksand';
+    width: 180px;
+    height: 20px;
+  }
+  .link:hover {
+    color: var(--light-green);
+  }
 }

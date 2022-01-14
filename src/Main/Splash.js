@@ -54,7 +54,7 @@ const Splash = () => {
   };
 
   return (
-    <div style={{ height: "90vh" }}>
+    <div style={{ height: "90vh" }} id="main">
       <Beige style={beige} />
       <div style={{ width: "400px", marginTop: "-340px", marginLeft: "-30px" }}>
         <Headshot style={headshotStyles} />
@@ -68,7 +68,7 @@ const Splash = () => {
       <div id="splash">
         <h1 id="name">Corynne Moody</h1>
 
-        <p style={{marginBottom: '-3em', marginTop: '3em'}}>
+        <p style={{marginBottom: '-3em', marginTop: '3em',  fontFamily: 'Quicksand'}}>
           <b>
             Indianapolis based web dev experienced in building, and teaching,
             user interfaces and servers
