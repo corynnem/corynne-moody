@@ -20,14 +20,12 @@
   #cancelIcon {
     position: absolute;
     left: 20px;
-    /* top: -100px; */
-    /* margin-top: 50px;/ */
   }
   nav {
     right: 0px;
     display: none;
     position: fixed;
-    transition: 0.7s;
+    /* transition: 0.7s; */
     position: absolute;
     top: 30%;
     left: 50%;
@@ -38,6 +36,7 @@
     color: var(--light-green);
     width: 180px;
     height: 20px;
+    font-family: 'Quicksand';
   }
   .link:hover {
     color: var(--light-green);
@@ -46,9 +45,6 @@
     font-size: 6vh;
     margin-bottom: 3vh;
   }
-  /* h5 {
-        font-size: 10em;
-    } */
 }
 
 /* Tablet and Mid-Sized Screen */
@@ -71,6 +67,7 @@
     color: var(--light-green);
     width: 180px;
     height: 20px;
+    font-family: 'Quicksand';
   }
   .link:hover {
     color: var(--light-green);

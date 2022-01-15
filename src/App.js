@@ -4,15 +4,14 @@ import Navigation from "./Main/Navigation/Nav";
 import Splash from "./Main/Splash";
 import About from "./Main/About";
 import Applications from "./Main/Applications";
+import Contact from './Main/Contact'
 import "./App.css";
 
 const abt = {
   marginTop: '5vh',
   marginRight: '2vw'
 }
-const applications = {
 
-}
 
 function App() {
   let body = document.querySelector("body");
@@ -36,6 +35,11 @@ function App() {
           <Route path="applications" element={
             <div>
               <Applications/>
+            </div>
+         } />
+         <Route path="contact" element={
+            <div>
+              <Contact/>
             </div>
          } />
         </Routes>

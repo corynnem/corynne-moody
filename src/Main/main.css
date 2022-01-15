@@ -9,17 +9,21 @@
   }
 }
 
-#main, #about, #applications {
+#main,
+#about,
+#applications, 
+#title {
   animation: fadeIn 0.75s;
 }
 
-#name, #title, #abt-desc {
-  font-family: 'Quicksand';
+#name,
+#title,
+#abt-desc {
+  font-family: "Quicksand";
 }
 
-
 /* Phone and Small-Sized Screen */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 900px) {
   #name {
     font-size: 2.4em;
     color: var(--light-green);
@@ -32,7 +36,7 @@
   #title {
     color: var(--light-green);
     margin-right: 15vw;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   #abt-desc {
     width: 75%;
@@ -45,10 +49,52 @@
   }
 
   #app-circles {
-    margin-top: -90vh;
-    margin-left: -3vw;
+    /* margin-top: -600px; */
+    margin-left: 0vw;
+    position: absolute;
+    top: -210px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
   }
- 
+}
+/* #app-circles {
+  margin-top: -100px;
+} */
+
+/* Phone and Small-Sized Screen */
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+  #name {
+    font-size: 2.1em;
+    margin-left: 4em;
+    color: var(--light-green);
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  #splash {
+    font-size: 2em;
+    padding: 4%;
+  }
+  #title {
+    color: var(--light-green);
+    font-size: 4em;
+    /* margin-top: -0.3em; */
+  }
+  #abt-desc {
+    width: 80vw;
+    margin-left: 10%;
+    margin-top: -5em;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  #app-circles {
+    /* margin-top: -600px; */
+    margin-top: 3vw;
+    position: absolute;
+    top: -18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* Tablet and Mid-Sized Screen */
@@ -81,7 +127,6 @@
     margin-top: -58vh;
     margin-left: 33vw;
   }
-
 }
 
 /* Laptops and Large-Sized Screen */
@@ -92,7 +137,7 @@
     color: var(--light-green);
     margin-bottom: 1em;
     margin-top: 3vh;
-    font-family: 'Quicksand';
+    font-family: "Quicksand";
   }
   #splash {
     font-size: 2em;
@@ -101,23 +146,24 @@
   #title {
     color: var(--light-green);
     font-size: 4em;
-    font-family: 'Quicksand';
+    font-family: "Quicksand";
   }
   #abt-desc {
     width: 80vw;
     margin-left: 10%;
     margin-top: -5em;
     font-size: 2em;
-    font-family: 'Quicksand';
+    font-family: "Quicksand";
   }
 
   #app-circles {
     margin-top: -58vh;
     margin-left: 37vw;
   }
-
-
 }
 
+:focus {
+  outline: none;
+}
 
 

@@ -14,7 +14,6 @@ import "./main.css";
 
 const About = () => {
   const darkTurq = {
-    marginTop: "",
     marginLeft: ".5em",
     height: "75px",
     width: "150px",
