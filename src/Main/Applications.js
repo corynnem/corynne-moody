@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <div style={{ height: "100vh" }} id="applications">
-      
+      <h1 className="title" style={{marginLeft: '30px'}}>Applications</h1>
       <Grid/>
       <img
         src={back}

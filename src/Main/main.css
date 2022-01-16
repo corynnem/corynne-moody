@@ -12,12 +12,12 @@
 #main,
 #about,
 #applications, 
-#title {
+.title {
   animation: fadeIn 0.75s;
 }
 
 #name,
-#title,
+.title,
 #abt-desc {
   font-family: "Quicksand";
 }
@@ -33,7 +33,7 @@
     margin-top: 20em;
     padding: 4%;
   }
-  #title {
+  .title {
     color: var(--light-green);
     margin-right: 15vw;
     font-size: 3.5rem;
@@ -75,7 +75,7 @@
     font-size: 2em;
     padding: 4%;
   }
-  #title {
+  .title {
     color: var(--light-green);
     font-size: 4em;
     /* margin-top: -0.3em; */
@@ -110,7 +110,7 @@
     font-size: 2em;
     padding: 4%;
   }
-  #title {
+  .title {
     color: var(--light-green);
     font-size: 4em;
     /* margin-top: -0.3em; */
@@ -143,7 +143,7 @@
     font-size: 2em;
     padding: 4%;
   }
-  #title {
+  .title {
     color: var(--light-green);
     font-size: 4em;
     font-family: "Quicksand";

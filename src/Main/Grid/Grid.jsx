@@ -6,7 +6,7 @@ const Grid = () => {
   const projects = [
     {
       name: "Book Keeping API",
-      desc: "An API developed for Eleven Fifty Academy curriculum meant to take topics the students were familiar with, i.e. express, and postgresql, and introduce them to querying with SQL. I was asked to research and develop an API utilizing node-postgres, an npm package that allows you to use SQL query builders to directly interface with tables in a database, to teach students the pro's and con's of using SQL vs. an ORM. In this project I learned that writing raw SQL queries will always be quicker than using an ORM due to the ability to directly change tables in a given database.",
+      desc: "An API developed for Eleven Fifty Academy curriculum meant to take topics the students were familiar with, i.e. express, and postgresql, and introduce them to querying with SQL. I was asked to research and develop an API utilizing node-postgres, an npm package that allows you to use SQL query builders to directly interface with tables in a database, to teach students the pro's and con's of using SQL vs. an ORM. In this project I learned that writing raw SQL queries will always be quicker than using an ORM due to the ability to directly manipulate tables in a given database.",
       img_src: "",
       githubLink: 'https://github.com/corynnem/SQL',
       deployedLink: ''
@@ -20,14 +20,14 @@ const Grid = () => {
     },
     {
       name: "Hangman",
-      desc: "A React.js application I built for personal growth and practice. During my time as a developer I have struggled to complete entire applications due to getting busy with work, life, etc, so my main goal for the Hangman app was completion. It taught me a very valuable lesson about developing, being stick with the minimum viable product and improvments can always come later.",
+      desc: "A React.js application built for personal growth and practice. During my time as a developer I have struggled to complete applications due to getting busy with work, life, etc, so my main goal for the Hangman app was completion. It taught me a very valuable lesson about developing, being stick with the minimum viable product and improvments can always come later.",
       img_src: "",
       githubLink: 'https://github.com/corynnem/hangman',
       deployedLink: 'https://basic-hangman.herokuapp.com/'
     },
     {
       name: "Weather App",
-      desc: "TypeScript, React",
+      desc: "A simple weather application created with React.js and TypeScript, to practice speeding up application speeds. Utilizing stateful class components to load in external data from the weather API and handle the bulk of the functionality and stateless functional components to display said data, I was able to optimize the performance of the simple application. ",
       img_src: "",
       githubLink: 'https://github.com/corynnem/weather-fetch.git',
       deployedLink: 'https://weather-gify.herokuapp.com/'
@@ -43,9 +43,9 @@ const Grid = () => {
             <div class="app">
               <h1>{item.name}</h1>
               <p>{item.desc}</p>
-              <div style={{display: 'flex', }}>
+              <div style={{display: 'flex' }} id="buttons">
                 <a href={item.deployedLink} target="_blank">
-                  <button>Deployed Project</button>
+                  <button>Deployed Link</button>
                 </a>
                 <a href={item.githubLink} target="_blank">
                   <button>Github Link</button>

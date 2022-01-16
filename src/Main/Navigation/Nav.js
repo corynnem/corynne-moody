@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import menuIcon from '../assets/menu.png'
 import cancelIcon from '../assets/cancel.png'
+import resume from '../assets/Corynne-Moody-Resume.pdf'
 import "./nav.css";
 
 const Navigation = ({style}) => {
@@ -32,6 +33,8 @@ const Navigation = ({style}) => {
     mi.style.display = 'block'
    }
 
+
+
   return (
     <div className="nav-wrapper">
       <img id="menuIcon" onClick={() => menuOpen()} src={menuIcon} style={{height: '50px', position: "absolute", top: '20px', right: '20px'}}/>
@@ -40,6 +43,7 @@ const Navigation = ({style}) => {
         <Link to='about' className="link"><h5 className="link-tags">About</h5></Link>
         <Link to='applications' className="link"><h5 className="link-tags">Projects</h5></Link>
         <Link to='contact' className="link"><h5 className="link-tags">Contact</h5></Link>
+        <a className="link" href={resume} download={resume} target="_blank"><h5 className="link-tags">Download Resume</h5></a>
       </nav>
     </div>
   );

@@ -79,7 +79,7 @@ const About = () => {
     <div style={{ height: "98vh" }} id="about">
       <DarkTurq style={darkTurq} />
       <LightGreen style={green} />
-      <h1 id="title" style={{ marginLeft: "1em", marginTop: "4vh" }}>
+      <h1 className="title" style={{ marginLeft: "1em", marginTop: "4vh" }}>
         About
       </h1>
       <DarkBlueL style={darkBluel} />
