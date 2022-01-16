@@ -123,7 +123,7 @@ const Contact = () => {
           left: "0px",
           marginLeft: "10px",
         }}
-        onClick={() => window.location.assign(`${URL}`)}
+        onClick={() => window.location.assign(`${URL}/`)}
       />
     </div>
   );
