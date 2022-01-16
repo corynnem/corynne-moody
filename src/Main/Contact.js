@@ -59,8 +59,9 @@ const Contact = () => {
   const inputStyles = {
     border: "0px",
     borderRadius: "5px",
-    width: "300px",
-    marginTop: "10px",
+    width: "290px",
+    height: "45px",
+    marginTop: "5px",
   };
 
   const flexStyles = {
@@ -92,13 +93,14 @@ const Contact = () => {
       <form
         action="https://formspree.io/f/xzbodegr"
         method="POST"
-        style={{
-          width: "300px",
-          position: "absolute",
-          top: "28%",
-          left: "48%",
-          margin: "-0px 0 0 -150px",
-        }}
+        id="form"
+        // style={{
+        //   width: "300px",
+        //   position: "absolute",
+        //   top: "38%",
+        //   left: "48%",
+        //   transform: 'translate(-50%, -50%)'
+        // }}
       >
         <label style={flexStyles}>
           Your email
