@@ -20,7 +20,7 @@ const About = () => {
         style={{
           height: "50px",
           position: "fixed",
-          bottom: "100px",
+          bottom: "60px",
           left: "0px",
           marginLeft: "10px",
         }}
