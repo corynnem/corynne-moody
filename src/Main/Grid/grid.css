@@ -1,32 +1,69 @@
 #outer-container {
-    padding: 3rem;
+  padding: 3rem;
+}
+
+.app {
+  background-color: var(--dark-turqoise);
+  color: white;
+  padding: 1rem;
+  height: 400px;
+  width: 300px;
+  margin-left: 12px;
+  margin-top: 10px;
+  font-family: 'Quicksand';
+  overflow: auto;
+}
+
+.app::-webkit-scrollbar {
+    display: none;
+  }
+
+#apps {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
-.app {
-    background-color: var(--dark-turqoise);
-    color: white;
-    padding: 1rem;
-    height: 300px;
-    width: 400px;
-    margin-right: 1vw;
+  /* Phone and Small-Sized Screen */
+  @media only screen and (max-width: 635px) {
+    #apps { 
+        margin-left: 10vw;
+    }
+  }
 
+
+  
+  /* Phone and Small-Sized Screen */
+  @media only screen and (min-width: 635px) and (max-width: 1024px) {
+    #apps {
+        margin-left: 8%;
+    }
+  }
+
+  
+  /* Phone and Small-Sized Screen */
+  
+  /* Tablet and Mid-Sized Screen */
+  @media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    #apps {
+        margin-left: 10%;
+    }
   }
   
-  #apps {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-    /* margin-left: -0vw; */
+  /* Laptops and Large-Sized Screen */
+  @media only screen and (min-width: 1301px) {
+    #apps {
+        margin-left: 20%;
+    }
   }
   
-  /* Screen larger than 600px? 2 column */
-  @media (min-width: 600px) {
-    #apps { grid-template-columns: repeat(2, 1fr);}
-  }
-  
-  /* Screen larger than 900px? 3 columns */
-  @media (min-width: 900px) {
-    #apps { grid-template-columns: repeat(3, 1fr); }
-  }
+
+a {
+    margin-left: 2vw;
+}
+button {
+    border: transparent;
+    background-color: var(--dark-seafoam-green);
+}
