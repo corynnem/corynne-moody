@@ -60,14 +60,12 @@
   #form {
     width: 300px;
     position: absolute;
-    top: 32%;
+    top: 42%;
     left: 49%;
     transform: translate(-50%, -50%);
   }
 }
-/* #app-circles {
-  margin-top: -100px;
-} */
+
 
 /* Phone and Small-Sized Screen */
 @media only screen and (min-width: 901px) and (max-width: 1024px) {

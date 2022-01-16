@@ -94,13 +94,6 @@ const Contact = () => {
         action="https://formspree.io/f/xzbodegr"
         method="POST"
         id="form"
-        // style={{
-        //   width: "300px",
-        //   position: "absolute",
-        //   top: "38%",
-        //   left: "48%",
-        //   transform: 'translate(-50%, -50%)'
-        // }}
       >
         <label style={flexStyles}>
           Your email
@@ -121,7 +114,7 @@ const Contact = () => {
         style={{
           height: "50px",
           position: "fixed",
-          bottom: "30px",
+          bottom: "100px",
           left: "0px",
           marginLeft: "10px",
         }}
