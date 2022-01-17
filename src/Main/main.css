@@ -199,3 +199,25 @@
 }
 
 
+
+hr {
+  border-top: 10px;
+  animation: createBox 2s;
+  width: 90vw;
+  height: 100px;
+  position: absolute;
+  /* top: 70%; */
+  /* margin-top: 10%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+@keyframes createBox {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 90vw;
+  }
+}

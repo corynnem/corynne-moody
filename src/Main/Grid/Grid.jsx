@@ -32,7 +32,13 @@ const Grid = () => {
       githubLink: 'https://github.com/corynnem/weather-fetch.git',
       deployedLink: 'https://weather-gify.herokuapp.com/'
     },
-
+    {
+      name: "Fill in the Blank Syntax Challenges",
+      desc: " ",
+      img_src: "",
+      githubLink: 'https://github.com/corynnem/EFA-Gold-Syntax-Challenges',
+      deployedLink: 'https://corynnem.github.io/week-2-challenges/'
+    },
   ];
 
   return (

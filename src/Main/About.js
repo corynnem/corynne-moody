@@ -111,6 +111,10 @@ const About = () => {
           onClick={() => window.location.assign(`${URL}/`)}
         />
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <hr style={{marginTop: '10%'}}/>
     </div>
   );
 };
