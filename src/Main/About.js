@@ -99,7 +99,7 @@ const About = () => {
         style={{
           display: "flex",
           position: "absolute",
-          bottom: "60px",
+          bottom: "30px",
           left: "0px",
           marginLeft: "10px",
           color: 'var(--light-green)'

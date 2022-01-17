@@ -78,7 +78,7 @@ const Splash = () => {
       <br/>
       <br/>
       <br/>
-      <hr/>
+      <hr style={{marginTop: '10%'}}/>
     </div>
   );
 };

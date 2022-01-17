@@ -5,18 +5,25 @@ import "../main.css";
 const Grid = () => {
   const projects = [
     {
+      name: "Task Manager API",
+      desc: "An API developed for Eleven Fifty Academy curriculum, relating to creating documentation using Swagger.io. The base backend curriculum is comprised of using Sequelize, an ORM library, to build queries to be executed on an Express.js server, sending the data to a PostgreSQL database, but previously, we did not offer information covering creating documentation for the API's students build. So, I was tasked with researching and developing an application that uses Swagger.io, an npm package that allows users to describe the structure of their API's to automatically populate documentation.",
+      img_src: "",
+      githubLink: 'https://github.com/corynnem/taskdb',
+      deployedLink: 'https://task-database-app.herokuapp.com/api-docs/#/'
+    },
+    {
       name: "Book Keeping API",
-      desc: "An API developed for Eleven Fifty Academy curriculum meant to take topics the students were familiar with, i.e. express, and postgresql, and introduce them to querying with SQL. I was asked to research and develop an API utilizing node-postgres, an npm package that allows you to use SQL query builders to directly interface with tables in a database, to teach students the pro's and con's of using SQL vs. an ORM. In this project I learned that writing raw SQL queries will always be quicker than using an ORM due to the ability to directly manipulate tables in a given database.",
+      desc: "Another API developed for Eleven Fifty Academy curriculum meant to take topics the students were familiar with, i.e. express, and postgresql, and introduce them to querying with SQL. I was asked to research and develop an API utilizing node-postgres, an npm package that allows you to use SQL query builders to directly interface with tables in a database, to teach students the pro's and con's of using SQL vs. an ORM. In this project I learned that writing raw SQL queries will always be quicker than using an ORM due to the ability to directly manipulate tables in a given database.",
       img_src: "",
       githubLink: 'https://github.com/corynnem/SQL',
       deployedLink: ''
     },
     {
-      name: "Task Manager API",
-      desc: "Another application developed for Eleven Fifty Academy curriculum, relating to creating documentation using Swagger.io. The base backend curriculum is comprised of using Sequelize, an ORM library, to build queries to be executed on an Express.js server, sending the data to a PostgreSQL database, but previously, we did not offer information covering creating documentation for the API's students build. So, I was tasked with researching and developing an application that uses Swagger.io, an npm package that allows users to describe the structure of their API's to automatically populate documentation.",
+      name: "VenYou API",
+      desc: "A personal project .",
       img_src: "",
-      githubLink: 'https://github.com/corynnem/taskdb',
-      deployedLink: 'https://task-database-app.herokuapp.com/api-docs/#/'
+      githubLink: '',
+      deployedLink: ''
     },
     {
       name: "Hangman",

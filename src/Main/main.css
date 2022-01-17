@@ -49,7 +49,6 @@
   }
 
   #app-circles {
-    /* margin-top: -600px; */
     margin-left: 0vw;
     position: absolute;
     top: -210px;
@@ -83,7 +82,6 @@
   .title {
     color: var(--light-green);
     font-size: 4em;
-    /* margin-top: -0.3em; */
   }
   #abt-desc {
     width: 80vw;
@@ -93,7 +91,6 @@
     font-weight: bolder;
   }
   #app-circles {
-    /* margin-top: -600px; */
     margin-top: 3vw;
     position: absolute;
     top: -18%;
@@ -125,7 +122,6 @@
   .title {
     color: var(--light-green);
     font-size: 4em;
-    /* margin-top: -0.3em; */
   }
   #abt-desc {
     width: 80vw;
@@ -176,11 +172,8 @@
   }
 
   #app-circles {
-    /* margin-top: -58vh;
-    margin-left: 37vw; */
     position: absolute;
     top: -10%;
-    /* left: 30%; */
     margin-left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -188,7 +181,6 @@
     width: 300px;
     position: absolute;
     top: 42%;
-    /* left: 30%; */
     margin-left: 46%;
     transform: translate(-50%, -50%);
   }
@@ -206,8 +198,6 @@ hr {
   width: 90vw;
   height: 100px;
   position: absolute;
-  /* top: 70%; */
-  /* margin-top: 10%; */
   left: 50%;
   transform: translate(-50%, -50%);
 
