@@ -23,7 +23,7 @@
 }
 
 /* Phone and Small-Sized Screen */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px)  {
   #name {
     font-size: 2.4em;
     color: var(--light-green);
@@ -49,25 +49,27 @@
   }
 
   #app-circles {
-    margin-left: 0vw;
+    /* margin-left: 0vw; */
     position: absolute;
     top: -210px;
-    left: 50%;
+    left: 47%;
     transform: translate(-50%, -50%);
 
   }
   #form {
     width: 300px;
     position: absolute;
-    top: 45%;
+    top: 350px;
     left: 49%;
     transform: translate(-50%, -50%);
+    font-family: 'Quicksand';
   }
+
 }
 
 
 /* Phone and Small-Sized Screen */
-@media only screen and (min-width: 901px) and (max-width: 1024px) {
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
   #name {
     font-size: 2.1em;
     margin-left: 4em;
@@ -91,18 +93,18 @@
     font-weight: bolder;
   }
   #app-circles {
-    margin-top: 3vw;
     position: absolute;
-    top: -18%;
+    top: -15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   #form {
     width: 300px;
     position: absolute;
-    top: 37%;
-    left: 50%;
+    top: 33%;
+    left: 52%;
     transform: translate(-50%, -50%);
+    font-family: 'Quicksand';
   }
 }
 
@@ -138,9 +140,10 @@
   #form {
     width: 300px;
     position: absolute;
-    top: 44%;
-    left: 49%;
+    top: 34%;
+    left: 52%;
     transform: translate(-50%, -50%);
+    font-family: 'Quicksand';
   }
 }
 
@@ -183,6 +186,7 @@
     top: 42%;
     margin-left: 46%;
     transform: translate(-50%, -50%);
+    font-family: 'Quicksand';
   }
 }
 

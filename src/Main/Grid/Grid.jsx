@@ -34,7 +34,7 @@ const Grid = () => {
     },
     {
       name: "Weather App",
-      desc: "A simple weather application created with React.js and TypeScript, to practice speeding up application speeds. Utilizing stateful class components to load in external data from the weather API and handle the bulk of the functionality and stateless functional components to display said data, I was able to optimize the performance of the simple application. ",
+      desc: "A simple weather application created with React.js and TypeScript, to practice improving application speeds. Utilizing stateful class components to load in external data from the weather API and handle the bulk of the functionality and stateless functional components to display said data, I was able to optimize the performance of the simple application. ",
       img_src: "",
       githubLink: 'https://github.com/corynnem/weather-fetch.git',
       deployedLink: 'https://weather-gify.herokuapp.com/'

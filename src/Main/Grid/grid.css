@@ -47,7 +47,6 @@
   }
 
   
-  /* Phone and Small-Sized Screen */
   
   /* Tablet and Mid-Sized Screen */
   @media only screen and (min-width: 1025px) and (max-width: 1300px) {
@@ -59,7 +58,7 @@
   /* Laptops and Large-Sized Screen */
   @media only screen and (min-width: 1301px) {
     #apps {
-        margin-left: 20%;
+        margin-left: 23%;
     }
   }
   

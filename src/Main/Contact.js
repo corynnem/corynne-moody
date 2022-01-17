@@ -13,14 +13,17 @@ import "./main.css";
 const Contact = () => {
   const darkTurq = {
     marginTop: "-20px",
-    marginLeft: "0px",
+    marginLeft: "20px",
     opacity: '0.5'
   };
 
   const seafoaml = {
-    marginTop: "750px",
+    marginTop: "800px",
     marginLeft: "35px",
-    opacity: '0.6'
+    opacity: '0.6',
+    height: '400px',
+    width: '400px'
+
   };
 
   const beige = {
@@ -30,8 +33,8 @@ const Contact = () => {
   };
 
   const green = {
-    marginTop: "-222px",
-    marginLeft: "0px",
+    marginTop: "-230px",
+    marginLeft: "20px",
     opacity: '0.6'
   };
 
@@ -42,8 +45,8 @@ const Contact = () => {
   };
 
   const darkBlues = {
-    marginTop: "-500px",
-    marginLeft: "-10px",
+    marginTop: "-530px",
+    marginLeft: "10px",
     opacity: '0.6'
   };
 
@@ -51,7 +54,7 @@ const Contact = () => {
     height: "100px",
     width: "100px",
     borderRadius: "100px",
-    marginTop: "-40px",
+    marginTop: "-50px",
     marginLeft: "280px",
     opacity: '0.5'
   };
@@ -62,6 +65,14 @@ const Contact = () => {
     width: "290px",
     height: "45px",
     marginTop: "5px",
+  };
+
+  const buttonStyles = {
+    border: "0px",
+    borderRadius: "5px",
+    width: "200px",
+    height: "45px",
+    marginTop: "10px",
   };
 
   const flexStyles = {
@@ -104,7 +115,7 @@ const Contact = () => {
           <textarea name="message" style={inputStyles}></textarea>
         </label>
 
-        <button type="submit" style={inputStyles}>
+        <button type="submit" style={buttonStyles}>
           Send
         </button>
       </form>
