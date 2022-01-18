@@ -6,6 +6,7 @@ import About from "./Main/About";
 import Applications from "./Main/Applications";
 import Contact from './Main/Contact'
 import "./App.css";
+import NoDeploy from "./Main/assets/noDeploy";
 
 const abt = {
   marginTop: '5vh',
@@ -40,6 +41,11 @@ function App() {
          <Route path="contact" element={
             <div>
               <Contact/>
+            </div>
+         } />
+          <Route path="notdeployed" element={
+            <div>
+              <NoDeploy/>
             </div>
          } />
         </Routes>

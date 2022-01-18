@@ -1,4 +1,5 @@
 import React from "react";
+import URL from '../../environment'
 import "./grid.css";
 import "../main.css";
 
@@ -16,14 +17,14 @@ const Grid = () => {
       desc: "Another API developed for Eleven Fifty Academy curriculum meant to take topics the students were familiar with, i.e. express, and postgresql, and introduce them to querying with SQL. I was asked to research and develop an API utilizing node-postgres, an npm package that allows you to use SQL query builders to directly interface with tables in a database, to teach students the pro's and con's of using SQL vs. an ORM. In this project I learned that writing raw SQL queries will always be quicker than using an ORM due to the ability to directly manipulate tables in a given database.",
       img_src: "",
       githubLink: 'https://github.com/corynnem/SQL',
-      deployedLink: ''
+      deployedLink: `${URL}/notdeployed`
     },
     {
       name: "VenYou API",
-      desc: "A personal project .",
+      desc: "A personal project made to act as a third party to assist artists to find venues to perform in and venues to find artists to perform. It is a simple API with user and manager priveleges, managers being able to create, read, update, and delete their own venues, and users having the ability to read venues. A front-end React application is in the process of being built to utilize this API. ",
       img_src: "",
-      githubLink: '',
-      deployedLink: ''
+      githubLink: 'https://github.com/corynnem/VenYou',
+      deployedLink: 'https://vy-backend.herokuapp.com/api-docs/'
     },
     {
       name: "Hangman",
@@ -41,7 +42,7 @@ const Grid = () => {
     },
     {
       name: "Fill in the Blank Syntax Challenges",
-      desc: " ",
+      desc: "3 web pages built with HTML, CSS, and JavaScript for Eleven Fifty Academy students who felt they needed extra practice with JavaScript syntax without the complexity of problem solving associated with it. ",
       img_src: "",
       githubLink: 'https://github.com/corynnem/EFA-Gold-Syntax-Challenges',
       deployedLink: 'https://corynnem.github.io/week-2-challenges/'

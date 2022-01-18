@@ -94,14 +94,14 @@
   }
   #app-circles {
     position: absolute;
-    top: -15%;
+    top: -170px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   #form {
     width: 300px;
     position: absolute;
-    top: 33%;
+    top: 400px;
     left: 52%;
     transform: translate(-50%, -50%);
     font-family: 'Quicksand';
@@ -134,13 +134,15 @@
   }
 
   #app-circles {
-    margin-top: -58vh;
-    margin-left: 33vw;
+    position: absolute;
+    top: -170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   #form {
     width: 300px;
     position: absolute;
-    top: 34%;
+    top: 400px;
     left: 52%;
     transform: translate(-50%, -50%);
     font-family: 'Quicksand';
@@ -176,14 +178,14 @@
 
   #app-circles {
     position: absolute;
-    top: -10%;
-    margin-left: 50%;
+    top: -150px;
+    margin-left: 49%;
     transform: translate(-50%, -50%);
   }
   #form {
     width: 300px;
     position: absolute;
-    top: 42%;
+    top: 400px;
     margin-left: 46%;
     transform: translate(-50%, -50%);
     font-family: 'Quicksand';
