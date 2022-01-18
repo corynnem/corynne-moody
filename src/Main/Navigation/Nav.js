@@ -20,8 +20,7 @@ const Navigation = ({style}) => {
    main.style.display = 'none'
    main.style.opacity = '0.1'
    mi.style.display = 'none'
-  }
-  
+  }  
   const menuClose = () => {
     let menu = document.getElementById('menu')
     let main = document.querySelector('#main')
