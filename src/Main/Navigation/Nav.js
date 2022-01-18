@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import menuIcon from '../assets/menu.png'
 import cancelIcon from '../assets/cancel.png'
-import resume from '../assets/Corynne-Moody-Resume.pdf'
+import resume from '../assets/Corynne_Moody_Resume.pdf'
 import "./nav.css";
 
 const Navigation = ({style}) => {
