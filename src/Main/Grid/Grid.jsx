@@ -17,7 +17,8 @@ const Grid = () => {
       desc: "Another API developed for Eleven Fifty Academy curriculum meant to take topics the students were familiar with, i.e. express, and postgresql, and introduce them to querying with SQL. I was asked to research and develop an API utilizing node-postgres, an npm package that allows you to use SQL query builders to directly interface with tables in a database, to teach students the pro's and con's of using SQL vs. an ORM. In this project I learned that writing raw SQL queries will always be quicker than using an ORM due to the ability to directly manipulate tables in a given database.",
       img_src: "",
       githubLink: 'https://github.com/corynnem/SQL',
-      deployedLink: `${URL}/notdeployed`
+      deployedLink: 'https://book-db-sql.herokuapp.com/api-docs/'
+      // deployedLink: `${URL}/notdeployed`
     },
     {
       name: "VenYou API",
